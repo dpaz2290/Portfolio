@@ -1,31 +1,5 @@
 h1 {
-    font-size: 50px !important;
     padding-top: 40px;}
-
-h2 {
-    font-size: 45px !important;
-    }
-h3 {
-    font-size: 24px !important;
-
-}  
-
-
-
-p {
-    font-size: 18px !important;
-    line-height: 1.5 !important;
-    margin-bottom: 1rem !important;
-    opacity: 0.7 !important;
-}
-
-li {
-        font-size: 18px !important;
-        line-height: 1.5 !important;
-        margin-bottom: 1rem !important;
-        opacity: 0.7 !important;
-}
-
 
 .navigation-links {
     display: flex;
@@ -33,11 +7,7 @@ li {
     justify-content: center;
 }
 
-.first {
-    margin-top: 10% !important;
-}
-
-    body {
+body {
     margin: 0;
 }
 
@@ -50,11 +20,9 @@ li {
     height: auto;
 }
 
-.p-2 {
-    padding: 0.5rem !important;
-}
+
 .quala {
-    color: #1E8F76 !important;
+    color: #1E8F76 ;
 }
 
 a.navbar-brand{
@@ -86,51 +54,34 @@ margin-right: 20px;
 }
 
 .danitwo{
-    display: inline-block !important;
-    max-width: 80% !important;
+    display: inline-block ;
+    max-width: 80% ;
     
 }
-.contact-link {
-    color: white !important;
-}
-.primary-link {
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    background: #1E8F76;
-    box-shadow: #f5f2fe;
-    color: white;
-    margin: 20px;
-  }
 
 @media (max-width: 576px) {
-      img {
-        display: none;
-    }
+
 .danitwo{
-        display: inline-block !important;
-        max-width: 40% !important;   
+        display: inline-block ;
+        max-width: 50% ;   
+
 }
 .git{
-        display: inline-block !important;
-        max-width: 5% !important;
+        display: inline-block ;
+        max-width: 5% ;
         
 }
 
 .mail{
-    display: inline-block !important;
-    max-width: 5% !important;
+    display: inline-block ;
+    max-width: 5% ;
     
   }
 
 .linkedin{
-        display: inline-block !important;
-        max-width: 5% !important;
+        display: inline-block ;
+        max-width: 5% ;
         
       }
-      .content-button{
-          display: flex;
-          justify-content: center;
-      }
+
     }
